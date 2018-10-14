@@ -71,7 +71,7 @@ action :install do
     action :nothing
   end
 
-  bash 'Initialize user #{new_resource.user} pyenv' do
+  bash "Initialize user #{new_resource.user} pyenv" do
     code %(PATH="#{new_resource.user_prefix}/bin:$PATH" pyenv init -)
     environment('PYENV_ROOT' => new_resource.user_prefix)
     action :nothing
