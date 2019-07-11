@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'berkshelf'
-gem 'chef', '~> 15.0'
+gem 'chef', '~> 14.0'
 
 group :development, :test do
   gem 'cookstyle'
