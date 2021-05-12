@@ -20,6 +20,7 @@
 #
 
 provides :pyenv_user_install
+unified_mode true
 
 property :user,         String, name_property: true
 property :git_url,      String, default: node['pyenv']['git_url']

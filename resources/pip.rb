@@ -19,6 +19,7 @@
 # limitations under the License.
 #
 provides :pyenv_pip
+unified_mode true
 
 property :package_name, String, name_property: true
 property :virtualenv,   String

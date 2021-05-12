@@ -25,6 +25,7 @@
 # If we pass in a user check that users global
 
 provides :pyenv_global
+unified_mode true
 
 property :pyenv_version, String, name_property: true
 property :user,          String

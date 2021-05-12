@@ -22,6 +22,7 @@
 #
 
 provides :pyenv_script
+unified_mode true
 
 property :pyenv_version, String
 property :code,          String
